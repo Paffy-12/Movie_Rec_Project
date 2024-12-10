@@ -84,7 +84,7 @@ vector<pair<int, double>> recommendMovies(const vector<vector<int>>& ratingsMatr
 
 int main() {
     
-    string filePath = "ratings.csv";
+    string filePath = "Ratings.csv";
     vector<vector<int>> ratingsMatrix = loadRatingsMatrix(filePath);
 
     int targetUser = 0;
